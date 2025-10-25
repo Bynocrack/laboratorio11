@@ -8,7 +8,7 @@ while (true) {
       }
     }
     if (primo) {
-      console.log(primo + " es un número primo menor a " + tope);
+      console.log(i + " es un número primo menor a " + tope);
     }
   }
   let rpta = prompt("Desea continuar? (S/n)").toLowerCase().charAt(0);

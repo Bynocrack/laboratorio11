@@ -5,6 +5,9 @@ while (true) {
     ),
   );
   let area = 0;
+  if (rpta == 0) {
+    break;
+  }
   switch (rpta) {
     case 1:
       let radio = parseFloat(prompt("Digite el radio del círculo"));
@@ -17,7 +20,7 @@ while (true) {
       area = ancho * largo;
       console.log(`El área del rectángulo es ${area}`);
       break;
-    case 0:
-      break;
+    default:
+      console.log("...?");
   }
 }

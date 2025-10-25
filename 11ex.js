@@ -1,9 +1,9 @@
 while (true) {
   let num = prompt("Digite un número positivo");
-  let longitud = num.length();
+  let longitud = num.length;
   let numInt = parseInt(num);
   let suma = 0;
-  if (numInt < 0) {
+  if (numInt <= 0) {
     console.log("...?");
     continue;
   }
